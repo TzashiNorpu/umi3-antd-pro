@@ -1,12 +1,11 @@
 import { useIntl } from 'umi';
-import { GithubOutlined } from '@ant-design/icons';
 import { DefaultFooter } from '@ant-design/pro-layout';
 
 const Footer: React.FC = () => {
   const intl = useIntl();
   const defaultMessage = intl.formatMessage({
     id: 'app.copyright.produced',
-    defaultMessage: '蚂蚁集团体验技术部出品',
+    defaultMessage: '富滇银行科技中心',
   });
 
   const currentYear = new Date().getFullYear();
@@ -14,7 +13,7 @@ const Footer: React.FC = () => {
   return (
     <DefaultFooter
       copyright={`${currentYear} ${defaultMessage}`}
-      links={[
+      /* links={[
         {
           key: 'Ant Design Pro',
           title: 'Ant Design Pro',
@@ -33,7 +32,7 @@ const Footer: React.FC = () => {
           href: 'https://ant.design',
           blankTarget: true,
         },
-      ]}
+      ]} */
     />
   );
 };
