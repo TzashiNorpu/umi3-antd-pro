@@ -9,7 +9,6 @@ import EditableLinkGroup from './components/EditableLinkGroup';
 import styles from './style.less';
 import type { ActivitiesType, CurrentUser } from './data.d';
 import { queryProjectNotice, queryActivities, fakeChartData } from './service';
-
 const links = [
   {
     title: '操作一',
@@ -117,7 +116,7 @@ const Workplace: FC = () => {
       content={
         <PageHeaderContent
           currentUser={{
-            avatar: 'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
+            avatar: '/assets/immortal.png',
             name: '吴彦祖',
             userid: '00000001',
             email: 'antdesign@alipay.com',

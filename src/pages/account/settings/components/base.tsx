@@ -11,7 +11,6 @@ import ProForm, {
 import { useRequest } from 'umi';
 import { queryCurrent } from '../service';
 import { queryProvince, queryCity } from '../service';
-
 import styles from './BaseView.less';
 
 const validatorPhone = (rule: any, value: string[], callback: (message?: string) => void) => {
@@ -51,7 +50,7 @@ const BaseView: React.FC = () => {
       if (currentUser.avatar) {
         return currentUser.avatar;
       }
-      const url = 'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png';
+      const url = '/assets/immortal.png';
       return url;
     }
     return '';

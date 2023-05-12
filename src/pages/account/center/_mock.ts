@@ -53,7 +53,7 @@ const user = [
 // 当前用户信息
 const currentUseDetail = {
   name: 'Serati Ma',
-  avatar: 'https://gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png',
+  avatar: '/assets/immortal.png',
   userid: '00000001',
   email: 'antdesign@alipay.com',
   signature: '海纳百川，有容乃大',
